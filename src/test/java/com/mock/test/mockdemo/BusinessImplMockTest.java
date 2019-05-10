@@ -30,7 +30,7 @@ public class BusinessImplMockTest {
 
 		assertEquals(3, filteredDemo.size());
 	}
-//Mock Test
+// MockTest verifying size 
 	@Test
 	public void testRetriveUsers_usingMock() {
 		ServiceDemo serviceMock = mock(ServiceDemo.class);
